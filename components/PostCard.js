@@ -2,15 +2,17 @@ import Link from 'next/link';
 import styles from './PostCard.module.css';
 
 const PostCard = ({ post }) => {
-  // Assuming post has id, title, excerpt, and image properties
+  // Assuming post has slug, title, excerpt, and date properties
   return (
     <div className={styles.card}>
-      <img src={post.image} alt={post.title} className={styles.image} />
-      <h3>{post.title}</h3>
-      <p>{post.excerpt}</p>
-      <Link href={`/posts/${post.id}`}>
-        <a>Read More</a>
-      </Link>
+      <div className={styles.content}>
+        <h3 className={styles.title}>{post.title}</h3>
+        <p className={styles.date}>{post.date}</p>
+        <p className={styles.excerpt}>{post.excerpt}</p>
+        <Link className={styles.readMore} href={`/posts/${post.slug}`}>
+          Read More
+        </Link>
+      </div>
     </div>
   );
 };

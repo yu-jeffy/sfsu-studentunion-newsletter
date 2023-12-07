@@ -8,17 +8,17 @@ const Header = () => {
         <ul className={styles.navigation}>
           <li>
             <Link href="/">
-              <a>Home</a>
+              Home
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <a>About</a>
+              About
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <a>Contact</a>
+              Contact
             </Link>
           </li>
         </ul>

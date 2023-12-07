@@ -1,0 +1,45 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-background);
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: 1.5rem;
+  }
+  
+  .date {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .excerpt {
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+  
+  .readMore {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .readMore:hover {
+    background-color: darken(var(--color-primary), 10%);
+  }

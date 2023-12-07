@@ -1,0 +1,30 @@
+.header {
+    background-color: var(--color-primary);
+    padding: 1rem 2rem;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navigation li {
+    margin: 0 1rem;
+  }
+  
+  .navigation a {
+    color: var(--color-background);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 600px) {
+    .navigation {
+      flex-direction: column;
+    }
+  
+    .navigation li {
+      margin: 0.5rem 0;
+    }
+  }

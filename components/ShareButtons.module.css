@@ -1,0 +1,21 @@
+.shareButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .shareButtons button {
+    margin: 0 0.5rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .shareButtons {
+      flex-direction: column;
+    }
+  
+    .shareButtons button {
+      margin: 0.5rem 0;
+    }
+  }
