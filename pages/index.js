@@ -48,6 +48,7 @@ export const getStaticProps = async () => {
         title: post.frontmatter.title,
         date: format(new Date(post.frontmatter.date), 'MMMM d, yyyy'),
         excerpt: post.frontmatter.excerpt,
+        author: post.frontmatter.author,
       })),
     },
   };

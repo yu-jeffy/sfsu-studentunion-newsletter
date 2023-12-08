@@ -1,12 +1,12 @@
 .shareButtons {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    padding: 1rem;
+    margin-bottom: 0.5rem;
   }
   
   .shareButtons button {
-    margin: 0 0.5rem;
+    margin-right: 0.5rem;
     cursor: pointer;
   }
   

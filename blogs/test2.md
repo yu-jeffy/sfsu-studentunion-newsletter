@@ -1,11 +1,12 @@
 ---
-title: "My Third Blog Post"
-date: "2050-11-21"
-excerpt: "This is the excerpt of my third blog post."
-slug: ""
+title: "My Second Blog Post"
+date: "2023-02-20"
+excerpt: "This is the excerpt of my second blog post."
+author: "Jane Doe"
+slug: "sfsustudentunion-blog-test2"
 ---
 
-Here is the content of my third blog post.
+Here is the content of my second blog post.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut. Cursus metus aliquam eleifend mi in nulla. Aliquam vestibulum morbi blandit cursus. Felis imperdiet proin fermentum leo vel orci. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. At imperdiet dui accumsan sit amet nulla facilisi morbi. Vulputate eu scelerisque felis imperdiet proin. Duis ut diam quam nulla porttitor massa id. Elementum eu facilisis sed odio. Purus sit amet volutpat consequat. Neque gravida in fermentum et sollicitudin ac. Commodo nulla facilisi nullam vehicula ipsum a. Sed tempus urna et pharetra.
 

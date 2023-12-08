@@ -43,3 +43,8 @@
   .readMore:hover {
     background-color: darken(var(--color-primary), 10%);
   }
+
+  .author {
+    color: var(--color-text-light);
+    margin-top: 0.25rem;
+  }

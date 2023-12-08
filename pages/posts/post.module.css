@@ -1,11 +1,13 @@
 .post {
-    max-width: 800px;
+    max-width: 50%;
     margin: 0 auto;
     padding: 2rem;
   }
   
   .post h1 {
     color: var(--color-primary);
+    font-size: xx-large;
+    font-weight: bold;
   }
   
   .meta {
@@ -18,7 +20,14 @@
   }
   
   .content img {
-    max-width: 100%;
-    height: auto;
-    margin: 1rem 0;
+    display: block; /* Images are inline by default, make them block-level */
+    max-width: 90%; /* Ensure the image is responsive and doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    margin: 1rem auto; /* Vertical margin for spacing, horizontal auto for centering */
+  }
+
+  .author {
+    color: var(--color-text-light);
+    font-style: italic;
+    margin-bottom: 0.5rem;
   }

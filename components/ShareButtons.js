@@ -1,24 +1,37 @@
+import styles from './ShareButtons.module.css';
+
 import {
-    FacebookShareButton,
-    TwitterShareButton,
-    InstagramShareButton,
-  } from 'react-share';
-  import { FacebookIcon, TwitterIcon, InstagramIcon } from 'react-share';
-  import styles from './ShareButtons.module.css'; // You will create this CSS module later
-  
-  const ShareButtons = ({ post }) => {
-    // Assuming post has url, title properties
-    return (
-      <div className={styles.shareButtons}>
-        <FacebookShareButton url={post.url} quote={post.title}>
+  FacebookShareButton,
+  TwitterShareButton,
+  LinkedinShareButton,
+  FacebookIcon,
+  TwitterIcon,
+  LinkedinIcon,
+} from 'react-share';
+
+const ShareButtons = ({ url, title }) => {
+  return (
+    <div className={styles.shareButtons}>
+      <div>
+        {/* Facebook Share Button */}
+        <FacebookShareButton url={url} quote={title}>
           <FacebookIcon size={32} round />
         </FacebookShareButton>
-        <TwitterShareButton url={post.url} title={post.title}>
+
+        {/* Twitter Share Button */}
+        <TwitterShareButton url={url} title={title}>
           <TwitterIcon size={32} round />
         </TwitterShareButton>
-        {/* Instagram does not provide a direct sharing API */}
+
+        {/* LinkedIn Share Button (if needed) */}
+        <LinkedinShareButton url={url} title={title}>
+          <LinkedinIcon size={32} round />
+        </LinkedinShareButton>
+
+        {/* Add more share buttons as needed */}
       </div>
-    );
-  };
-  
-  export default ShareButtons;
+    </div>
+  );
+};
+
+export default ShareButtons;
