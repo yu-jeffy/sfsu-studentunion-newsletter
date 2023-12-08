@@ -1,34 +1,48 @@
 .post {
-    max-width: 50%;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-  
-  .post h1 {
-    color: var(--color-primary);
-    font-size: xx-large;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .meta {
-    color: var(--color-text-light);
-    margin-bottom: 0.75rem;
-  }
-  
-  .content {
-    line-height: 1.6;
-  }
-  
-  .content img {
-    display: block; /* Images are inline by default, make them block-level */
-    max-width: 90%; /* Ensure the image is responsive and doesn't overflow */
-    height: auto; /* Maintain aspect ratio */
-    margin: 1rem auto; /* Vertical margin for spacing, horizontal auto for centering */
-  }
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+}
 
-  .author {
-    color: var(--color-text-light);
-    font-style: italic;
-    margin-bottom: 0.5rem;
+.post h1 {
+  color: var(--color-primary);
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.meta {
+  color: var(--color-text-light);
+  margin-bottom: 0.75rem;
+}
+
+.content {
+  line-height: 1.6;
+}
+
+.content p {
+  margin-bottom: 1rem;
+}
+
+.content img {
+  display: block;
+  /* Images are inline by default, make them block-level */
+  max-width: 90%;
+  /* Ensure the image is responsive and doesn't overflow */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin: 1rem auto;
+  /* Vertical margin for spacing, horizontal auto for centering */
+}
+
+.author {
+  color: var(--color-text-light);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .post {
+    width: 95%;
   }
+}

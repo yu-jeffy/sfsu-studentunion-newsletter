@@ -1,6 +1,15 @@
 .header {
     background-color: var(--color-primary);
     padding: 1rem 2rem;
+    display: flex;
+    align-items: left;
+  }
+
+  .logoContainer {
+    flex: 0 1 auto; /* Allow the logo to shrink but not grow */
+    width: 100px; /* Set a base width for the logo */
+    min-width: 50px; /* Set a minimum width for the logo */
+    height: auto; /* Maintain aspect ratio */
   }
   
   .navigation {
