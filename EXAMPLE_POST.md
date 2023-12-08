@@ -1,20 +1,23 @@
 ---
-title: "My Second Blog Post"
-date: "2023-02-20"
-excerpt: "This is the excerpt of my second blog post."
-author: "Jane Doe"
-slug: "sfsustudentunion-blog-test2"
+title: "My First Blog Post"
+date: "2023-01-13"
+excerpt: "This is the excerpt of my first blog post."
+author: "John Doe"
 ---
 
-Here is the content of my second blog post.
+Here is the content of my first blog post.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut. Cursus metus aliquam eleifend mi in nulla. Aliquam vestibulum morbi blandit cursus. Felis imperdiet proin fermentum leo vel orci. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. At imperdiet dui accumsan sit amet nulla facilisi morbi. Vulputate eu scelerisque felis imperdiet proin. Duis ut diam quam nulla porttitor massa id. Elementum eu facilisis sed odio. Purus sit amet volutpat consequat. Neque gravida in fermentum et sollicitudin ac. Commodo nulla facilisi nullam vehicula ipsum a. Sed tempus urna et pharetra.
+
+![Alt text](/images/test.png)
 
 Cursus mattis molestie a iaculis at erat. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Consequat interdum varius sit amet mattis vulputate. Consectetur adipiscing elit pellentesque habitant morbi. Tortor at risus viverra adipiscing. Magna sit amet purus gravida quis blandit. Eu lobortis elementum nibh tellus molestie. Fames ac turpis egestas maecenas. Sit amet nulla facilisi morbi tempus iaculis urna id. Leo urna molestie at elementum. Tincidunt eget nullam non nisi est sit. Justo donec enim diam vulputate ut pharetra sit.
 
 Quam pellentesque nec nam aliquam sem et tortor consequat. Egestas sed tempus urna et. Imperdiet massa tincidunt nunc pulvinar sapien. Pulvinar etiam non quam lacus. Purus viverra accumsan in nisl nisi scelerisque eu ultrices. Est lorem ipsum dolor sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Augue mauris augue neque gravida in fermentum et. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Nisl condimentum id venenatis a condimentum. Mi quis hendrerit dolor magna.
 
 Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Amet facilisis magna etiam tempor. Enim nunc faucibus a pellentesque sit amet porttitor. Ultrices vitae auctor eu augue ut lectus arcu. Tristique nulla aliquet enim tortor at auctor urna nunc id. Turpis tincidunt id aliquet risus feugiat in ante. Mauris nunc congue nisi vitae suscipit tellus mauris a. Donec enim diam vulputate ut pharetra sit amet aliquam id. Dictum at tempor commodo ullamcorper a lacus vestibulum. Quis enim lobortis scelerisque fermentum. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Donec massa sapien faucibus et molestie. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper.
+
+![Alt text](/images/test.png)
 
 Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Orci dapibus ultrices in iaculis nunc. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Bibendum at varius vel pharetra vel turpis nunc. Sed augue lacus viverra vitae congue eu consequat ac felis. Malesuada fames ac turpis egestas maecenas. At lectus urna duis convallis convallis. Ut tristique et egestas quis. Vitae sapien pellentesque habitant morbi tristique senectus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Feugiat sed lectus vestibulum mattis ullamcorper velit. Ultricies mi eget mauris pharetra et ultrices neque. Nulla facilisi morbi tempus iaculis urna. Consectetur a erat nam at lectus urna duis.
 

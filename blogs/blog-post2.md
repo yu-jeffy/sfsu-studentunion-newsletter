@@ -1,16 +1,13 @@
 ---
-title: "My First Blog Post"
-date: "2023-01-13"
-excerpt: "This is the excerpt of my first blog post."
-author: "John Doe"
-slug: "sfsustudentunion-blog-test1"
+title: "My Second Blog Post"
+date: "2023-02-20"
+excerpt: "This is the excerpt of my second blog post."
+author: "Jane Doe"
 ---
 
-Here is the content of my first blog post.
+Here is the content of my second blog post.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut. Cursus metus aliquam eleifend mi in nulla. Aliquam vestibulum morbi blandit cursus. Felis imperdiet proin fermentum leo vel orci. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. At imperdiet dui accumsan sit amet nulla facilisi morbi. Vulputate eu scelerisque felis imperdiet proin. Duis ut diam quam nulla porttitor massa id. Elementum eu facilisis sed odio. Purus sit amet volutpat consequat. Neque gravida in fermentum et sollicitudin ac. Commodo nulla facilisi nullam vehicula ipsum a. Sed tempus urna et pharetra.
-
-![Alt text](/images/test.png)
 
 Cursus mattis molestie a iaculis at erat. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Consequat interdum varius sit amet mattis vulputate. Consectetur adipiscing elit pellentesque habitant morbi. Tortor at risus viverra adipiscing. Magna sit amet purus gravida quis blandit. Eu lobortis elementum nibh tellus molestie. Fames ac turpis egestas maecenas. Sit amet nulla facilisi morbi tempus iaculis urna id. Leo urna molestie at elementum. Tincidunt eget nullam non nisi est sit. Justo donec enim diam vulputate ut pharetra sit.
 

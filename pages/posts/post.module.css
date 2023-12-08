@@ -8,11 +8,12 @@
     color: var(--color-primary);
     font-size: xx-large;
     font-weight: bold;
+    margin-bottom: 0.5rem;
   }
   
   .meta {
     color: var(--color-text-light);
-    margin-bottom: 2rem;
+    margin-bottom: 0.75rem;
   }
   
   .content {

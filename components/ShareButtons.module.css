@@ -2,7 +2,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
   }
   
   .shareButtons button {
@@ -16,6 +16,6 @@
     }
   
     .shareButtons button {
-      margin: 0.5rem 0;
+      margin-right: 0.5rem;
     }
   }
