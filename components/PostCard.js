@@ -6,7 +6,7 @@ const PostCard = ({ post }) => {
   return (
     <div className={styles.card}>
       <div className={styles.content}>
-        <h3 className={styles.title}>{post.title}</h3>
+        <h3 className={styles.title}><Link href={`/posts/${post.slug}`}>{post.title}</Link></h3>
         <p className={styles.author}>{post.author}</p>
         <p className={styles.date}>{post.date}</p>
         <p className={styles.excerpt}>{post.excerpt}</p>

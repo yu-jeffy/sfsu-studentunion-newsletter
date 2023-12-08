@@ -6,12 +6,14 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logoContainer}>
-        <Image
-          src="/images/su_logo.png"
-          width={50} // The width of the image in pixels at 1x scaling
-          height={50} // The height of the image in pixels at 1x scaling
-          alt="SU Logo"
-        />
+        <Link href="/">
+          <Image
+            src="/images/su_logo.png"
+            width={50} // The width of the image in pixels at 1x scaling
+            height={50} // The height of the image in pixels at 1x scaling
+            alt="SU Logo"
+          />
+        </Link>
       </div>
       <nav>
         <ul className={styles.navigation}>
