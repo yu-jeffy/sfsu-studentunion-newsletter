@@ -37,8 +37,6 @@
   .logoContainer {
     display: flex; /* Use flexbox to center the image */
     width: 25vw; /* Allow the logo to be responsive */
-    align-items: center;
-    height: 100%;
   }
 
   .navigation {
