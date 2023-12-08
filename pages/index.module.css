@@ -61,4 +61,14 @@
     .topHeader h1 {
       font-size: 1.5rem;
     }
+    .topHeader {
+      width: 90vw;
+    }
+    .headerContentContainer {
+      width: 90vw;
+    }
+    
+    .headerContent {
+      width: 90vw;
+    }
   }
