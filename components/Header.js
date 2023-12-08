@@ -8,10 +8,9 @@ const Header = () => {
       <div className={styles.logoContainer}>
         <Image
           src="/images/su_logo.png"
-          width={100} // The width of the image in pixels at 1x scaling
-          height={100} // The height of the image in pixels at 1x scaling
+          width={50} // The width of the image in pixels at 1x scaling
+          height={50} // The height of the image in pixels at 1x scaling
           alt="SU Logo"
-          layout="responsive" // This will make the image responsive
         />
       </div>
       <nav>
@@ -19,6 +18,11 @@ const Header = () => {
           <li>
             <Link href="/">
               Home
+            </Link>
+          </li>
+          <li>
+            <Link href="/articles">
+              Articles
             </Link>
           </li>
           <li>

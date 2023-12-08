@@ -1,39 +1,54 @@
 .header {
-    background-color: var(--color-primary);
-    padding: 1rem 2rem;
-    display: flex;
-    align-items: left;
+  background-color: var(--color-primary);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between; /* Adjusted to space-between to push nav to the right */
+  align-items: center; /* Center aligned for better vertical alignment */
+}
+
+.logoContainer {
+  flex: 0 0 auto; /* Do not allow the logo to shrink or grow */
+  width: 80px; /* Fixed width for the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end; /* Right align the navigation */
+  align-items: center;
+}
+
+.navigation li {
+  margin: 0 1rem;
+}
+
+.navigation a {
+  color: var(--color-background);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .header {
+    align-items: flex-start; /* Align items to the start (left) */
+    padding: 1rem; /* Adjust padding for mobile */
   }
 
   .logoContainer {
-    flex: 0 1 auto; /* Allow the logo to shrink but not grow */
-    width: 100px; /* Set a base width for the logo */
-    min-width: 50px; /* Set a minimum width for the logo */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
-  .navigation {
-    display: flex;
-    justify-content: left;
+    display: flex; /* Use flexbox to center the image */
+    width: 25vw; /* Allow the logo to be responsive */
     align-items: center;
+    height: 100%;
   }
-  
+
+  .navigation {
+    width: auto; /* Take full width */
+    justify-content: flex-end; /* Keep nav items right-aligned */
+    flex-direction: column; /* Stack nav items vertically */
+    align-items: flex-end; /* Right align the nav items */
+  }
+
   .navigation li {
-    margin: 0 1rem;
+    margin: 0.5rem 0; /* Adjust margin for stacked items */
   }
-  
-  .navigation a {
-    color: var(--color-background);
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  @media (max-width: 600px) {
-    .navigation {
-      flex-direction: column;
-    }
-  
-    .navigation li {
-      margin: 0.5rem 0;
-    }
-  }
+}
