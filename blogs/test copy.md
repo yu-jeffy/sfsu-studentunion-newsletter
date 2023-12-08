@@ -1,5 +1,5 @@
 ---
-title: "My First Blog Post"
+title: "My Second Blog Post"
 date: "2050-11-20"
 excerpt: "This is the excerpt of my second blog post."
 slug: ""

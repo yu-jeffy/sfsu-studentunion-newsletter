@@ -1,0 +1,24 @@
+.post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .post h1 {
+    color: var(--color-primary);
+  }
+  
+  .meta {
+    color: var(--color-text-light);
+    margin-bottom: 2rem;
+  }
+  
+  .content {
+    line-height: 1.6;
+  }
+  
+  .content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
