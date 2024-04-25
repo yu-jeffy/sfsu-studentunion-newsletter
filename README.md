@@ -2,17 +2,21 @@
 
 ## Running the website locally
 
+### 1. Install Dependencies
+
 First, install the dependencies:
 
 ```bash
 npm install
 ```
 
-Then, set the login credentials, which are in the environment variables.
+### 2. Set Admin Login Credentials
 
-### Make a copy of the .env.example file and name it .env:
+*If you are hosting on Vercel, skip this step and set them [here](https://vercel.com/docs/projects/environment-variables). Note you will need the names of the two environment variables, which are below:*
 
-You can use this command or do it manually.
+Set the login credentials, which are in the environment variables.
+
+Make a copy of the .env.example file and name it .env. You can use this command or do it manually:
 
 ```bash
 cp .env.example .env
@@ -26,7 +30,9 @@ NEXT_PUBLIC_ADMIN_USERNAME=your_username
 NEXT_PUBLIC_ADMIN_PASSWORD=your_password
 ```
 
-Save the .env file. 
+Save the .env file.
+
+### 3. Run the server/website!
 
 Then, run the development server:
 
