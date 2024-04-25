@@ -13,18 +13,18 @@ const Home = ({ posts }) => {
     <Layout>
       <header className={styles.headerSection}>
         <div className={styles.topHeader}>
-          <h1>Student Union @ San Francisco State University</h1>
+          <h1 className={styles.topHeaderTitle}>Student Union Newsletter</h1>
         </div>
 
         {/* Container for horizontally organized content */}
         <div className={styles.headerContentContainer}>
           <div className={styles.headerContent}>
-            <div className={styles.headerImage}>
-              <img src="/images/walkout.jpeg" alt="Header Image" />
-            </div>
             <div className={styles.headerCopy}>
               <h2>Welcome to Our Newsletter</h2>
-              <p>Discover the latest articles and insights from our authors.</p>
+              <p>Stay updated with our latest articles and join the conversation.</p>
+            </div>
+            <div className={styles.headerImage}>
+              <img src="/images/walkout.jpeg" alt="Header Image" />
             </div>
           </div>
         </div>

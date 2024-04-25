@@ -1,0 +1,187 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.loginTitle {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.loginInput {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginButton {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    box-sizing: border-box;
+    padding-top: 5vw;
+    padding-bottom: 50vw;
+    
+}
+
+.createContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 55vw;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.createPostTitle {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #444;
+}
+
+.createPostForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.createPostLabel {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.createPostInput,
+.createPostExcerpt,
+.createPostTextarea {
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.createPostInput:focus,
+.createPostExcerpt:focus,
+.createPostTextarea:focus {
+    outline: none;
+    border-color: #6c63ff;
+}
+
+.createPostTextarea{
+    height: 800px;
+    overflow-y: scroll;
+}
+
+.createPostSubmit {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: #fff;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.createPostSubmit:hover {
+    background-color: #5a54ce;
+}
+
+.uploadContainer {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 1em auto;
+    height: 100%;
+}
+
+.uploadTitle {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #444;
+}
+
+.uploadInput {
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.uploadInput:focus {
+    outline: none;
+    border-color: #6c63ff;
+}
+
+.scrollContainer {
+    overflow-y: scroll;
+    height: 50vh;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.uploadButton {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: #fff;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

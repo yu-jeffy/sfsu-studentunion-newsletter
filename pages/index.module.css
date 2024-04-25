@@ -11,13 +11,6 @@
     width: 100%; /* Full width */
     margin-bottom: 1rem; /* Space between the top header and the content below */
   }
-
-  .topHeader h1 {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
   
   .headerContentContainer {
     display: flex;
@@ -28,17 +21,30 @@
   .headerContent {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 75vw;
+  }
+
+  .topHeaderTitle {
+    font-size: 3rem;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   
   .headerImage img {
-    width: 50vw;
+    width: 33vw;
     height: auto;
+    border-radius: 10px;
+    margin-left: 5vw;
   }
   
   .headerCopy {
     flex: 1;
+    margin-left: 5vw;
   }
   
   .headerCopy h2 {
