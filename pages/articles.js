@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import PostCard from '../components/PostCard';
 import { format } from 'date-fns';
 import styles from './articles.module.css';
+import Head from 'next/head';
 
 const Articles = ({ posts }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -17,6 +18,9 @@ const Articles = ({ posts }) => {
 
   return (
     <Layout>
+      <Head>
+        <title>Articles - SFSU Student Union</title>
+      </Head>
       <div className={styles.searchContainer}>
         <input
           type="text"

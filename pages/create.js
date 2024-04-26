@@ -1,4 +1,4 @@
-
+import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import styles from './create.module.css';
 
@@ -117,6 +117,9 @@ export default function CreatePage() {
 
     return (
         <div className={styles.container}>
+            <Head>
+                <title>Create Article</title>
+            </Head>
             <div className={styles.createContainer}>
                 <h1 className={styles.createPostTitle}>Create a New Blog Post</h1>
                 <form onSubmit={handlePostSubmit} className={styles.createPostForm}>

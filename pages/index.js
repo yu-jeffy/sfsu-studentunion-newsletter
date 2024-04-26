@@ -6,11 +6,15 @@ import Layout from '../components/Layout';
 import PostCard from '../components/PostCard';
 import { format } from 'date-fns';
 import styles from './index.module.css';
+import Head from 'next/head';
 
 
 const Home = ({ posts }) => {
   return (
     <Layout>
+      <Head>
+        <title>SFSU Student Union Newsletter</title>
+      </Head>
       <header className={styles.headerSection}>
         <div className={styles.topHeader}>
           <h1 className={styles.topHeaderTitle}>Student Union Newsletter</h1>

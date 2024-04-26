@@ -42,50 +42,8 @@ node server.js
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the blog.
 
-## Adding a New Blog Post With "Create" Page
 
-Navigate to `www.linktoblog.com/create`
 
-### Login
-
-Before you can create a post, you need to log in with the admin credentials. These credentials are set in the `.env` file as `NEXT_PUBLIC_ADMIN_USERNAME` and `NEXT_PUBLIC_ADMIN_PASSWORD`.
-
-### Create a Post
-
-After you've logged in, you can create a new post.
-
-1. Enter the post title in the **Title** field.
-2. Enter the author's name in the **Author** field.
-3. Enter a short summary of the post in the **Excerpt** field.
-4. Enter the date of the post in the **Date** field.
-5. Enter the post content in the **Content** field. The content field supports Markdown, so you can use Markdown syntax to format your post. For example, you can use `**text**` to make text bold, or `*text*` to make text italic.
-6. Click the **Submit** button to create the post.
-
-After you click the **Submit** button, the post will be created and added to the list of posts.
-
-Please note that all fields are required. If you try to submit the form without filling out all fields, an error will be displayed.
-
-If you're new to Markdown, you can find a quick and easy guide [here](https://zapier.com/blog/beginner-ultimate-guide-markdown/).
-
-You can use an online Markdown editor to preview your post [here](https://stackedit.io/app#). You can also write the post in the editor and paste it in to the website.
-
-### Upload Images
-
-You can upload images to use in your post. To upload an image:
-
-1. Click the **Upload** button.
-2. Select the image file you want to upload.
-3. Click the **Open** button to upload the image.
-
-The image will be uploaded and saved on the server. The name of the uploaded image file will be displayed.
-
-To use the uploaded image in your post, you can reference it by filename in your Markdown content. For example, if you uploaded an image named `image.jpg`, you can include it in your post by adding the following Markdown to your content: 
-
-```markdown
-![Image description](/images/image.jpg)
-```
-
-This will display the image in your post. The `/images/` prefix is necessary because the images are stored in the images directory on the server.
 
 ## Adding a New Blog Post Manually
 This guide will walk you through the process of adding a new blog post to the project. The blog post will be written in Markdown, a lightweight markup language that you can learn in a few minutes.
@@ -155,10 +113,70 @@ The file should have a `.md` extension. For example, if you want to create a blo
 
 The title is important, since it will be the URL of the blog post. For example, `my-first-post.md` will be found at `www.example.com/posts/my-first-post`.
 
+## Step 5. Push to the Github Repository to Publish
+
+Push to the main branch and the website will load the new blog post.
+
 ### Step 6: All Done!
 Your new blog post should now be available on the the website.
 
 Happy blogging! 🙌 🎉
+
+
+
+
+
+
+
+## (BETA) Adding a New Blog Post With "Create" Page (ONLY WORKS ON LOCAL BUILD)
+
+Navigate to `localhost:3000/create`
+
+### 1. Login
+
+Before you can create a post, you need to log in with the admin credentials. These credentials are set in the `.env` file as `NEXT_PUBLIC_ADMIN_USERNAME` and `NEXT_PUBLIC_ADMIN_PASSWORD`.
+
+### 2. Create a Post
+
+After you've logged in, you can create a new post.
+
+1. Enter the post title in the **Title** field.
+2. Enter the author's name in the **Author** field.
+3. Enter a short summary of the post in the **Excerpt** field.
+4. Enter the date of the post in the **Date** field.
+5. Enter the post content in the **Content** field. The content field supports Markdown, so you can use Markdown syntax to format your post. For example, you can use `**text**` to make text bold, or `*text*` to make text italic.
+6. Click the **Submit** button to create the post.
+
+After you click the **Submit** button, the post will be created and added to the list of posts.
+
+Please note that all fields are required. If you try to submit the form without filling out all fields, an error will be displayed.
+
+If you're new to Markdown, you can find a quick and easy guide [here](https://zapier.com/blog/beginner-ultimate-guide-markdown/).
+
+You can use an online Markdown editor to preview your post [here](https://stackedit.io/app#). You can also write the post in the editor and paste it in to the website.
+
+### 3. Upload Images
+
+You can upload images to use in your post. To upload an image:
+
+1. Click the **Upload** button.
+2. Select the image file you want to upload.
+3. Click the **Open** button to upload the image.
+
+The image will be uploaded and saved on the server. The name of the uploaded image file will be displayed.
+
+To use the uploaded image in your post, you can reference it by filename in your Markdown content. For example, if you uploaded an image named `image.jpg`, you can include it in your post by adding the following Markdown to your content: 
+
+```markdown
+![Image description](/images/image.jpg)
+```
+
+This will display the image in your post. The `/images/` prefix is necessary because the images are stored in the images directory on the server.
+
+### 3. Push to the Github Repository to Publish
+
+Push to the main branch and the website will load the new blog post.
+
 
 
 
