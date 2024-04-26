@@ -55,7 +55,7 @@
 
 .hamburgerContainer {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   flex-direction: row;
   width: 100%;
   justify-content: flex-end;
