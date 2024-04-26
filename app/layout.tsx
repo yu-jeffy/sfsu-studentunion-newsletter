@@ -1,6 +1,6 @@
 export const metadata = {
     title: 'SFSU Student Union',
-    description: 'Student Union Organization at San Francisco State University',
+    description: 'Student Union @ San Francisco State University',
   }
   
   export default function RootLayout({

@@ -10,7 +10,7 @@ class MyDocument extends Document {
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
                     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gabarito:wght@400..900&display=swap" rel="stylesheet"/>  
     
-                    <meta name="description" content="This is my website" />
+                    <meta name="description" content="Student Union @ San Francisco State University" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <body>
